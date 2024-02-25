@@ -1,0 +1,53 @@
+
+body {
+  font-family: arial;
+}
+
+section {
+  border: solid 1px #000;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+}
+
+.column {
+  border: solid 1px #000;
+  margin: 10px;
+  padding: 5px;
+
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+
+  background-color: #fff;
+}
+
+header section {
+  background-color: #abb1d5;
+}
+
+main section {
+  background-color: rgb(108, 121, 197);
+  min-height: 500px;
+}
+
+footer section {
+  background-color: #474a57;
+}
+
+button {
+  cursor: pointer;
+}
+
+.playerCard {
+  margin: auto;
+  text-align: center;
+  border-style: inset;
+  min-width: fit-content;
+  max-width: 200px;
+}
+
+.column {
+  text-align: center;
+}
